@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 31,
+  "bottomRow": 39,
   "boxShadow": "none",
   "defaultImage": "https://assets.appsmith.com/widgets/default.png",
   "dynamicBindingPathList": [
@@ -32,8 +32,8 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 11,
   "needsErrorInfo": false,
-  "objectFit": "cover",
-  "onClick": "{{showAlert('방금 찍은 사진', 'info');}}",
+  "objectFit": "contain",
+  "onClick": "{{showModal(Modal1.name);}}",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,

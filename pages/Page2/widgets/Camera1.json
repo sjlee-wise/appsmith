@@ -1,8 +1,9 @@
 {
-  "borderRadius": "0.375rem",
+  "borderRadius": "0px",
   "bottomRow": 74,
   "boxShadow": "none",
   "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onImageSave"
