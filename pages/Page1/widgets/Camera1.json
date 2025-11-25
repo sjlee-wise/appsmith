@@ -1,0 +1,37 @@
+{
+  "borderRadius": "0.375rem",
+  "bottomRow": 41,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onImageSave"
+    }
+  ],
+  "flexVerticalAlignment": "start",
+  "isCanvas": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isMirrored": true,
+  "isVisible": true,
+  "key": "paihvs9w7a",
+  "leftColumn": 18,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 32,
+  "mobileRightColumn": 57,
+  "mobileTopRow": 4,
+  "mode": "CAMERA",
+  "needsErrorInfo": false,
+  "onImageSave": "{{showModal(Modal1.name);}}",
+  "parentColumnSpace": 20.25,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 43,
+  "topRow": 3,
+  "type": "CAMERA_WIDGET",
+  "version": 1,
+  "widgetId": "d8scrixegi",
+  "widgetName": "Camera1"
+}
