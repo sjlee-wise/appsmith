@@ -8,7 +8,7 @@
       "encodeParamsToggle": true,
       "formData": {
         "body": {
-          "data": "{{FilePicker1.files[0]}}"
+          "data": "{{FilePicker1.files}}"
         },
         "bucket": {
           "data": "hakerton"
@@ -57,7 +57,7 @@
           }
         },
         "path": {
-          "data": "photo/photo_{{Date.now()}}.jpg"
+          "data": "photo/{{Text1.text}}"
         },
         "read": {
           "dataType": {
@@ -81,6 +81,9 @@
     "dynamicBindingPathList": [
       {
         "key": "formData.path.data"
+      },
+      {
+        "key": "formData.body.data"
       }
     ],
     "name": "Query1",
