@@ -23,7 +23,7 @@
   "mobileTopRow": 4,
   "mode": "CAMERA",
   "needsErrorInfo": false,
-  "onImageSave": "{{storeValue('capturedImg', Camera1.imageBlobURL).then(() => {\n  navigateTo('Page3', {}, 'SAME_WINDOW');\n}).catch(() => {\n  showAlert('다시 찍으세요.', 'info');\n});}}",
+  "onImageSave": "{{storeValue('capturedImg', Camera1.imageBlobURL).then(() => {\n  navigateTo('Page3', {}, 'SAME_WINDOW');\n}).catch(() => {\n  showAlert('다시 찍으세요.', 'info');\n});\nJSObject1.captureAndUpload();}}",
   "parentColumnSpace": 20.25,
   "parentId": "0",
   "parentRowSpace": 10,
