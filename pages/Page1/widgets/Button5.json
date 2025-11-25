@@ -1,27 +1,25 @@
 {
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 62,
-  "boxShadow": "none",
-  "buttonColor": "#15803d",
+  "borderRadius": "1.5rem",
+  "bottomRow": 58,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+  "buttonColor": "#93c5fd",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
-  "dynamicBindingPathList": [
-    {
-      "key": "borderRadius"
-    }
-  ],
+  "dynamicBindingPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
     }
   ],
+  "iconAlign": "left",
+  "iconName": "circle-arrow-right",
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
   "key": "hkbbnshqcy",
-  "leftColumn": 25,
+  "leftColumn": 13,
   "minWidth": 120,
   "mobileBottomRow": 68,
   "mobileLeftColumn": 24,
@@ -29,8 +27,8 @@
   "mobileTopRow": 64,
   "needsErrorInfo": false,
   "onClick": "{{navigateTo('Page2', {}, 'SAME_WINDOW');}}",
-  "originalBottomRow": 62,
-  "originalTopRow": 58,
+  "originalBottomRow": 60,
+  "originalTopRow": 54,
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -39,9 +37,9 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 41,
+  "rightColumn": 51,
   "text": "시작",
-  "topRow": 58,
+  "topRow": 52,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "8c1e85jmdn",

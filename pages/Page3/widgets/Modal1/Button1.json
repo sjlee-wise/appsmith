@@ -1,17 +1,13 @@
 {
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 17,
+  "borderRadius": "1.5rem",
+  "bottomRow": 19,
   "boxShadow": "none",
   "buttonColor": "#ef4444",
   "buttonStyle": "PRIMARY",
   "buttonVariant": "SECONDARY",
   "disabledWhenInvalid": false,
-  "dynamicBindingPathList": [
-    {
-      "key": "borderRadius"
-    }
-  ],
+  "dynamicBindingPathList": [],
   "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
@@ -40,8 +36,8 @@
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
   "rightColumn": 48,
-  "text": "취소",
-  "topRow": 13,
+  "text": "아니오",
+  "topRow": 15,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "oqw997jao8",
