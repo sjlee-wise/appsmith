@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 39,
+  "bottomRow": 50,
   "boxShadow": "none",
   "defaultImage": "https://assets.appsmith.com/widgets/default.png",
   "dynamicBindingPathList": [
@@ -33,7 +33,7 @@
   "mobileTopRow": 11,
   "needsErrorInfo": false,
   "objectFit": "contain",
-  "onClick": "{{showModal(Modal1.name);}}",
+  "onClick": "",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
