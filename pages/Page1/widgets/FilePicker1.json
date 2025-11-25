@@ -30,7 +30,7 @@
   "mobileRightColumn": 41,
   "mobileTopRow": 45,
   "needsErrorInfo": false,
-  "onFilesSelected": "{{storeValue('curr', Date.now()).then(() => {\n  Query1.run();\n  navigateTo('Page2', {}, 'SAME_WINDOW');\n});}}",
+  "onFilesSelected": "{{storeValue('curr', Date.now()).then(() => {});\nQuery1.run().then(() => {\n  navigateTo('Page2', {}, 'SAME_WINDOW');\n});}}",
   "originalBottomRow": 58,
   "originalTopRow": 52,
   "parentColumnSpace": 6.84375,
