@@ -1,6 +1,6 @@
 {
   "borderRadius": "0.375rem",
-  "bottomRow": 41,
+  "bottomRow": 45,
   "boxShadow": "none",
   "dynamicBindingPathList": [],
   "dynamicTriggerPathList": [
@@ -15,7 +15,7 @@
   "isMirrored": true,
   "isVisible": true,
   "key": "paihvs9w7a",
-  "leftColumn": 18,
+  "leftColumn": 20,
   "mobileBottomRow": 37,
   "mobileLeftColumn": 32,
   "mobileRightColumn": 57,
@@ -29,9 +29,9 @@
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
   "rightColumn": 43,
-  "topRow": 3,
+  "topRow": 7,
   "type": "CAMERA_WIDGET",
   "version": 1,
   "widgetId": "d8scrixegi",
-  "widgetName": "Camera1"
+  "widgetName": "camera"
 }
