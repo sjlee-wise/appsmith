@@ -7,12 +7,20 @@
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "image"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
     }
   ],
   "enableDownload": false,
   "enableRotation": false,
   "flexVerticalAlignment": "start",
-  "image": "",
+  "image": "{{ appsmith.store.capturedImg }}",
   "imageShape": "RECTANGLE",
   "isLoading": false,
   "isVisible": true,
@@ -25,6 +33,7 @@
   "mobileTopRow": 11,
   "needsErrorInfo": false,
   "objectFit": "cover",
+  "onClick": "{{showAlert('방금 찍은 사진', 'info');}}",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
