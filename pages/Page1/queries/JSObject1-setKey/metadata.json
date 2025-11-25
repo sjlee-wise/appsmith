@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "692456a78a3f3113425a1717_71063d4c-e6ab-411f-b638-1adef105f56f",
-  "id": "Page1_JSObject1.myFun1",
+  "gitSyncId": "692456a78a3f3113425a1717_f1c7e591-5fe8-47ab-906f-0eb2300e9ac5",
+  "id": "Page1_JSObject1.setKey",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
@@ -10,7 +10,6 @@
       "paginationType": "NONE",
       "timeoutInMillisecond": 10000
     },
-    "clientSideExecution": true,
     "collectionId": "Page1_JSObject1",
     "confirmBeforeExecute": false,
     "datasource": {
@@ -23,8 +22,8 @@
         "key": "body"
       }
     ],
-    "fullyQualifiedName": "JSObject1.myFun1",
-    "name": "myFun1",
+    "fullyQualifiedName": "JSObject1.setKey",
+    "name": "setKey",
     "pageId": "Page1",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
-  "borderRadius": "2.5rem",
-  "bottomRow": 240,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 24,
   "boxShadow": "none",
   "canEscapeKeyClose": true,
   "canOutsideClickClose": true,
@@ -25,7 +25,7 @@
       "isDisabled": false,
       "isLoading": false,
       "isVisible": true,
-      "key": "rd9hysrzpx",
+      "key": "v111ee06z5",
       "leftColumn": 0,
       "maxDynamicHeight": 9000,
       "minDynamicHeight": 4,
@@ -37,7 +37,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "f8gxzsig4v",
+      "parentId": "ochi3juk03",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -46,23 +46,21 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "evwfvgsjrv",
+      "widgetId": "vqj4lg5tx7",
       "widgetName": "Canvas1"
     }
   ],
   "detachFromLayout": true,
-  "dynamicBindingPathList": [],
-  "dynamicHeight": "AUTO_HEIGHT",
-  "dynamicPropertyPathList": [
+  "dynamicBindingPathList": [
     {
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicHeight": "AUTO_HEIGHT",
   "height": 240,
   "isCanvas": true,
   "isLoading": false,
-  "key": "gitsm0iv7u",
+  "key": "8h9vwuzkxb",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 24,
@@ -81,7 +79,7 @@
   "topRow": 0,
   "type": "MODAL_WIDGET",
   "version": 2,
-  "widgetId": "f8gxzsig4v",
+  "widgetId": "ochi3juk03",
   "widgetName": "Modal1",
-  "width": 369.5
+  "width": 423.5
 }

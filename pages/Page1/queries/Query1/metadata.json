@@ -57,7 +57,7 @@
           }
         },
         "path": {
-          "data": "photo/{{Date.now()}}.png"
+          "data": "photo/{{appsmith.store.curr}}.png"
         },
         "read": {
           "dataType": {
@@ -80,10 +80,10 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "formData.path.data"
+        "key": "formData.body.data"
       },
       {
-        "key": "formData.body.data"
+        "key": "formData.path.data"
       }
     ],
     "name": "Query1",

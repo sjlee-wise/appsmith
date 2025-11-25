@@ -1,12 +1,6 @@
 export default {
-	myVar1: [],
-	myVar2: {},
-	myFun1 () {
-		//	write code here
-		//	this.myVar1 = [1,2,3]
-	},
-	async myFun2 () {
-		//	use async-await or promises
-		//	await storeValue('varName', 'hello world')
-	}
+  setKey() {
+    const key = `photos/photo_${Date.now()}.png`;
+    storeValue("latestPhotoKey", key); // 최신 Key 저장
+  }
 }

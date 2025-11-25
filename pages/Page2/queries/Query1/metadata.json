@@ -1,5 +1,5 @@
 {
-  "gitSyncId": "692456a78a3f3113425a1717_b39f46e4-841a-4ad6-9c6d-2db3860eaec6",
+  "gitSyncId": "692456a78a3f3113425a1717_f8ae6122-4109-4ecd-b53b-49a9abe692bd",
   "id": "Page2_Query1",
   "pluginId": "amazons3-plugin",
   "pluginType": "DB",
@@ -8,13 +8,13 @@
       "encodeParamsToggle": true,
       "formData": {
         "body": {
-          "data": "{{\n{\"data\": Camera1.imageRawBinary}\n}}\n"
+          "data": ""
         },
         "bucket": {
           "data": "hakerton"
         },
         "command": {
-          "data": "UPLOAD_FILE_FROM_BODY"
+          "data": "READ_FILE"
         },
         "create": {
           "dataType": {
@@ -57,11 +57,14 @@
           }
         },
         "path": {
-          "data": "photos"
+          "data": "photo/{{appsmith.store.curr}}.png"
         },
         "read": {
           "dataType": {
             "data": "YES"
+          },
+          "expiry": {
+            "data": "5"
           }
         },
         "smartSubstitution": {
@@ -80,12 +83,12 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "formData.body.data"
+        "key": "formData.path.data"
       }
     ],
     "name": "Query1",
     "pageId": "Page2",
-    "runBehaviour": "MANUAL",
+    "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }
 }

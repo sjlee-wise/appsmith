@@ -1,14 +1,13 @@
 {
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 19,
+  "bottomRow": 18,
   "boxShadow": "none",
   "buttonColor": "#ef4444",
   "buttonStyle": "PRIMARY",
   "buttonVariant": "SECONDARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [],
-  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -18,7 +17,7 @@
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "hkbbnshqcy",
+  "key": "zg5wus55vj",
   "leftColumn": 32,
   "minWidth": 120,
   "mobileBottomRow": 22,
@@ -27,9 +26,9 @@
   "mobileTopRow": 18,
   "needsErrorInfo": false,
   "onClick": "{{closeModal(Modal1.name);}}",
-  "originalBottomRow": 19,
-  "originalTopRow": 15,
-  "parentId": "evwfvgsjrv",
+  "originalBottomRow": 18,
+  "originalTopRow": 14,
+  "parentId": "vqj4lg5tx7",
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
@@ -37,9 +36,9 @@
   "responsiveBehavior": "hug",
   "rightColumn": 48,
   "text": "아니오",
-  "topRow": 15,
+  "topRow": 14,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "oqw997jao8",
-  "widgetName": "Button1"
+  "widgetId": "08qhaeu8c6",
+  "widgetName": "Button3"
 }
