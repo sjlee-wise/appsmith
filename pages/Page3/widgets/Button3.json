@@ -1,15 +1,12 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 56,
+  "bottomRow": 71,
   "boxShadow": "none",
-  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonColor": "#15803d",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
-    {
-      "key": "buttonColor"
-    },
     {
       "key": "borderRadius"
     }
@@ -24,7 +21,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "hkbbnshqcy",
-  "leftColumn": 25,
+  "leftColumn": 15,
   "minWidth": 120,
   "mobileBottomRow": 56,
   "mobileLeftColumn": 25,
@@ -40,9 +37,9 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 41,
+  "rightColumn": 31,
   "text": "확인",
-  "topRow": 52,
+  "topRow": 67,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "slmc24zye4",
