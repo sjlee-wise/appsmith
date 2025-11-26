@@ -1,0 +1,58 @@
+{
+  "borderRadius": "0px",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "fontFamily"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "0.875rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": "true",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 21,
+  "logBlackList": {
+    "bottomRow": true,
+    "fontSize": true,
+    "fontStyle": true,
+    "isLoading": true,
+    "isVisible": true,
+    "leftColumn": true,
+    "minHeight": true,
+    "parentColumnSpace": true,
+    "parentId": true,
+    "parentRowSpace": true,
+    "rightColumn": true,
+    "text": true,
+    "textAlign": true,
+    "textColor": true,
+    "topRow": true,
+    "type": true,
+    "version": true,
+    "widgetId": true,
+    "widgetName": true
+  },
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "SCROLL",
+  "parentColumnSpace": 19.0625,
+  "parentId": "lcz0rhije8",
+  "parentRowSpace": 10,
+  "rightColumn": 64,
+  "text": "{{currentItem.fileName}}",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 0,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "kmwv6dap5n",
+  "widgetName": "FileListItemName"
+}

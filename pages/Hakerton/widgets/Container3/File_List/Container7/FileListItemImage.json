@@ -1,0 +1,64 @@
+{
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 13,
+  "boxShadow": "none",
+  "defaultImage": "https://cdn3.iconfinder.com/data/icons/brands-applications/512/File-512.png",
+  "dynamicBindingPathList": [
+    {
+      "key": "image"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "enableDownload": false,
+  "enableRotation": false,
+  "image": "{{currentItem.signedUrl}}",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": "true",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 1,
+  "logBlackList": {
+    "bottomRow": true,
+    "defaultImage": true,
+    "enableDownload": true,
+    "enableRotation": true,
+    "image": true,
+    "imageShape": true,
+    "isLoading": true,
+    "isVisible": true,
+    "leftColumn": true,
+    "maxZoomLevel": true,
+    "minHeight": true,
+    "objectFit": true,
+    "parentColumnSpace": true,
+    "parentId": true,
+    "parentRowSpace": true,
+    "rightColumn": true,
+    "topRow": true,
+    "type": true,
+    "version": true,
+    "widgetId": true,
+    "widgetName": true
+  },
+  "maxZoomLevel": 1,
+  "objectFit": "contain",
+  "onClick": "{{showModal('Zoom_Modal')}}",
+  "parentColumnSpace": 19.0625,
+  "parentId": "lcz0rhije8",
+  "parentRowSpace": 10,
+  "rightColumn": 20,
+  "topRow": 0,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "4laf7e6wer",
+  "widgetName": "FileListItemImage"
+}

@@ -1,0 +1,75 @@
+{
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 14,
+  "boxShadow": "none",
+  "buttonColor": "#2E3D49",
+  "buttonVariant": "TERTIARY",
+  "displayName": "Icon Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconName": "edit",
+  "iconSVG": "/static/media/icon.bff4eac0.svg",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "true",
+  "key": "8akz850h7z",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 39,
+  "logBlackList": {
+    "borderRadius": true,
+    "bottomRow": true,
+    "boxShadow": true,
+    "buttonColor": true,
+    "buttonVariant": true,
+    "displayName": true,
+    "hideCard": true,
+    "iconName": true,
+    "iconSVG": true,
+    "isCanvas": true,
+    "isDisabled": true,
+    "isLoading": true,
+    "isVisible": true,
+    "key": true,
+    "leftColumn": true,
+    "minHeight": true,
+    "parentColumnSpace": true,
+    "parentId": true,
+    "parentRowSpace": true,
+    "renderMode": true,
+    "rightColumn": true,
+    "topRow": true,
+    "type": true,
+    "version": true,
+    "widgetId": true,
+    "widgetName": true
+  },
+  "onClick": "{{showModal('Edit_Modal')}}",
+  "parentColumnSpace": 9.4658203125,
+  "parentId": "lcz0rhije8",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 45,
+  "topRow": 10,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "x5bft8h9vd",
+  "widgetName": "EditIcon"
+}
