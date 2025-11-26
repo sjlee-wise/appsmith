@@ -36,7 +36,7 @@
         },
         "path": {
           "componentData": "{{(!!folder_name.text ? folder_name.text + \"/\" : \"\") + this.params.name}}",
-          "data": "{{(!!folder_name.text ? folder_name.text + \"/\" : \"\") + this.params.name}}",
+          "data": "{{this.params.name}}",
           "viewType": "component"
         }
       },

@@ -97,6 +97,9 @@
     },
     {
       "key": "template.FileListItemImage.defaultImage"
+    },
+    {
+      "key": "template.Container7.boxShadow"
     }
   ],
   "dynamicTriggerPathList": [
@@ -137,7 +140,8 @@
     "Container7": {
       "borderColor": "{{File_List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '#2E3D4955';\n              })();\n            })}}",
       "borderRadius": "{{File_List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '5';\n              })();\n            })}}",
-      "borderWidth": "{{File_List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '1';\n              })();\n            })}}"
+      "borderWidth": "{{File_List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '1';\n              })();\n            })}}",
+      "boxShadow": "{{File_List.listData.map((currentItem, currentIndex) => {\n                return (function(){\n                  return  \"0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)\";\n                })();\n              })}}"
     },
     "CopyURLIcon": {
       "borderRadius": "{{File_List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  appsmith.theme.borderRadius.appBorderRadius;\n              })();\n            })}}",

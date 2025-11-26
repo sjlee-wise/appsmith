@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 69,
+  "bottomRow": 60,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,8 +30,8 @@
   "mobileRightColumn": 30,
   "mobileTopRow": 55,
   "needsErrorInfo": false,
-  "originalBottomRow": 62,
-  "originalTopRow": 58,
+  "originalBottomRow": 60,
+  "originalTopRow": 56,
   "overflow": "NONE",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
@@ -43,7 +43,7 @@
   "text": "ⓒ수리부엉이",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 65,
+  "topRow": 56,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

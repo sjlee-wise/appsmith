@@ -31,6 +31,10 @@
     {
       "id": "Hakerton",
       "isDefault": false
+    },
+    {
+      "id": "Page3",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

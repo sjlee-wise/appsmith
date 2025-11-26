@@ -1,12 +1,16 @@
 {
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 54,
+  "bottomRow": 36,
   "boxShadow": "none",
-  "buttonColor": "#ef4444",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
-  "dynamicBindingPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -17,16 +21,16 @@
   "isLoading": false,
   "isVisible": true,
   "key": "2ijeo6eopn",
-  "leftColumn": 14,
+  "leftColumn": 12,
   "minWidth": 120,
   "mobileBottomRow": 64,
   "mobileLeftColumn": 15,
   "mobileRightColumn": 31,
   "mobileTopRow": 60,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Page2', {}, 'SAME_WINDOW');}}",
-  "originalBottomRow": 54,
-  "originalTopRow": 49,
+  "onClick": "{{navigateTo('Hakerton', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 62,
+  "originalTopRow": 57,
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -35,11 +39,11 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 52,
-  "text": "시작",
-  "topRow": 49,
+  "rightColumn": 50,
+  "text": "업로드 목록",
+  "topRow": 31,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "ycwkoj4556",
+  "widgetId": "7cp4daaiwq",
   "widgetName": "Button5"
 }
