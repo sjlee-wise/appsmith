@@ -1,6 +1,6 @@
 {
   "borderRadius": "0px",
-  "bottomRow": 7,
+  "bottomRow": 4,
   "boxShadow": "none",
   "dynamicBindingPathList": [
     {
@@ -18,7 +18,7 @@
   "isLoading": false,
   "isVisible": "true",
   "labelTextSize": "0.875rem",
-  "leftColumn": 21,
+  "leftColumn": 0,
   "logBlackList": {
     "bottomRow": true,
     "fontSize": true,

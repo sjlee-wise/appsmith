@@ -1,24 +1,17 @@
 {
   "borderRadius": "0px",
-  "bottomRow": 7,
+  "bottomRow": 5,
   "boxShadow": "none",
-  "dynamicBindingPathList": [
-    {
-      "key": "text"
-    },
-    {
-      "key": "fontFamily"
-    }
-  ],
+  "dynamicBindingPathList": [],
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
-  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "0.875rem",
+  "fontFamily": "System Default",
+  "fontSize": "1.875rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": "true",
   "labelTextSize": "0.875rem",
-  "leftColumn": 0,
+  "leftColumn": 21,
   "logBlackList": {
     "bottomRow": true,
     "fontSize": true,
@@ -46,8 +39,8 @@
   "parentColumnSpace": 19.0625,
   "parentId": "lcz0rhije8",
   "parentRowSpace": 10,
-  "rightColumn": 64,
-  "text": "{{currentItem.fileName}}",
+  "rightColumn": 49,
+  "text": "결과 확인",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 0,

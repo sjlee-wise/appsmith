@@ -48,12 +48,6 @@
       "key": "template.FileListItemName.text"
     },
     {
-      "key": "template.EditIcon.buttonColor"
-    },
-    {
-      "key": "template.CopyURLIcon.buttonColor"
-    },
-    {
       "key": "template.DownloadIcon.buttonColor"
     },
     {
@@ -66,9 +60,6 @@
       "key": "template.Container7.borderRadius"
     },
     {
-      "key": "template.CopyURLIcon.iconName"
-    },
-    {
       "key": "accentColor"
     },
     {
@@ -76,12 +67,6 @@
     },
     {
       "key": "boxShadow"
-    },
-    {
-      "key": "template.EditIcon.borderRadius"
-    },
-    {
-      "key": "template.CopyURLIcon.borderRadius"
     },
     {
       "key": "template.DownloadIcon.borderRadius"
@@ -105,9 +90,6 @@
   "dynamicTriggerPathList": [
     {
       "key": "template.DownloadIcon.onClick"
-    },
-    {
-      "key": "template.CopyURLIcon.onClick"
     },
     {
       "key": "onPageChange"
@@ -142,72 +124,6 @@
       "borderRadius": "{{File_List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '5';\n              })();\n            })}}",
       "borderWidth": "{{File_List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '1';\n              })();\n            })}}",
       "boxShadow": "{{File_List.listData.map((currentItem, currentIndex) => {\n                return (function(){\n                  return  \"0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)\";\n                })();\n              })}}"
-    },
-    "CopyURLIcon": {
-      "borderRadius": "{{File_List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  appsmith.theme.borderRadius.appBorderRadius;\n              })();\n            })}}",
-      "bottomRow": 13,
-      "boxShadow": "NONE",
-      "buttonColor": "{{File_List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '#2E3D49';\n              })();\n            })}}",
-      "buttonVariant": "TERTIARY",
-      "displayName": "Icon Button",
-      "dynamicBindingPathList": [],
-      "dynamicPropertyPathList": [
-        {
-          "key": "onClick"
-        }
-      ],
-      "dynamicTriggerPathList": [
-        {
-          "key": "onClick"
-        }
-      ],
-      "hideCard": false,
-      "iconName": "{{File_List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'duplicate';\n              })();\n            })}}",
-      "iconSVG": "/static/media/icon.bff4eac0.svg",
-      "isDisabled": false,
-      "isLoading": false,
-      "isVisible": true,
-      "key": "8akz850h7z",
-      "leftColumn": 45,
-      "logBlackList": {
-        "borderRadius": true,
-        "bottomRow": true,
-        "boxShadow": true,
-        "buttonColor": true,
-        "buttonVariant": true,
-        "displayName": true,
-        "hideCard": true,
-        "iconName": true,
-        "iconSVG": true,
-        "isCanvas": true,
-        "isDisabled": true,
-        "isLoading": true,
-        "isVisible": true,
-        "key": true,
-        "leftColumn": true,
-        "minHeight": true,
-        "parentColumnSpace": true,
-        "parentId": true,
-        "parentRowSpace": true,
-        "renderMode": true,
-        "rightColumn": true,
-        "topRow": true,
-        "type": true,
-        "version": true,
-        "widgetId": true,
-        "widgetName": true
-      },
-      "onClick": "{{copyToClipboard(currentItem.signedUrl)}}",
-      "parentColumnSpace": 9.4658203125,
-      "parentId": "lcz0rhije8",
-      "parentRowSpace": 10,
-      "renderMode": "CANVAS",
-      "rightColumn": 51,
-      "topRow": 9,
-      "type": "ICON_BUTTON_WIDGET",
-      "version": 1,
-      "widgetId": "d2z5zj56j9",
-      "widgetName": "CopyURLIcon"
     },
     "DeleteIcon": {
       "borderRadius": "{{File_List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  appsmith.theme.borderRadius.appBorderRadius;\n              })();\n            })}}",
@@ -340,72 +256,6 @@
       "version": 1,
       "widgetId": "ljk8fj5jc1",
       "widgetName": "DownloadIcon"
-    },
-    "EditIcon": {
-      "borderRadius": "{{File_List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  appsmith.theme.borderRadius.appBorderRadius;\n              })();\n            })}}",
-      "bottomRow": 13,
-      "boxShadow": "NONE",
-      "buttonColor": "{{File_List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '#2E3D49';\n              })();\n            })}}",
-      "buttonVariant": "TERTIARY",
-      "displayName": "Icon Button",
-      "dynamicBindingPathList": [],
-      "dynamicPropertyPathList": [
-        {
-          "key": "onClick"
-        }
-      ],
-      "dynamicTriggerPathList": [
-        {
-          "key": "onClick"
-        }
-      ],
-      "hideCard": false,
-      "iconName": "edit",
-      "iconSVG": "/static/media/icon.bff4eac0.svg",
-      "isDisabled": false,
-      "isLoading": false,
-      "isVisible": true,
-      "key": "8akz850h7z",
-      "leftColumn": 39,
-      "logBlackList": {
-        "borderRadius": true,
-        "bottomRow": true,
-        "boxShadow": true,
-        "buttonColor": true,
-        "buttonVariant": true,
-        "displayName": true,
-        "hideCard": true,
-        "iconName": true,
-        "iconSVG": true,
-        "isCanvas": true,
-        "isDisabled": true,
-        "isLoading": true,
-        "isVisible": true,
-        "key": true,
-        "leftColumn": true,
-        "minHeight": true,
-        "parentColumnSpace": true,
-        "parentId": true,
-        "parentRowSpace": true,
-        "renderMode": true,
-        "rightColumn": true,
-        "topRow": true,
-        "type": true,
-        "version": true,
-        "widgetId": true,
-        "widgetName": true
-      },
-      "onClick": "{{showModal('Edit_Modal')}}",
-      "parentColumnSpace": 9.4658203125,
-      "parentId": "lcz0rhije8",
-      "parentRowSpace": 10,
-      "renderMode": "CANVAS",
-      "rightColumn": 45,
-      "topRow": 9,
-      "type": "ICON_BUTTON_WIDGET",
-      "version": 1,
-      "widgetId": "x5bft8h9vd",
-      "widgetName": "EditIcon"
     },
     "FileListItemImage": {
       "borderRadius": "{{File_List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  appsmith.theme.borderRadius.appBorderRadius;\n              })();\n            })}}",
