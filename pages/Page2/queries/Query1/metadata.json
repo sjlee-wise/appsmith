@@ -8,13 +8,13 @@
       "encodeParamsToggle": true,
       "formData": {
         "body": {
-          "data": ""
+          "data": "{{FilePicker1.files[0]}}"
         },
         "bucket": {
           "data": "hakerton"
         },
         "command": {
-          "data": "READ_FILE"
+          "data": "UPLOAD_FILE_FROM_BODY"
         },
         "create": {
           "dataType": {
@@ -84,6 +84,9 @@
     "dynamicBindingPathList": [
       {
         "key": "formData.path.data"
+      },
+      {
+        "key": "formData.body.data"
       }
     ],
     "name": "Query1",
