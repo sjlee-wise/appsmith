@@ -26,7 +26,7 @@
   "mobileRightColumn": 31,
   "mobileTopRow": 60,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Hakerton2', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{navigateTo('Hakerton3', {}, 'SAME_WINDOW');}}",
   "originalBottomRow": 62,
   "originalTopRow": 57,
   "parentColumnSpace": 6.84375,

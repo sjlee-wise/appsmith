@@ -18,7 +18,7 @@
   "isLoading": false,
   "isVisible": "true",
   "labelTextSize": "0.875rem",
-  "leftColumn": 1,
+  "leftColumn": 0,
   "logBlackList": {
     "bottomRow": true,
     "fontSize": true,

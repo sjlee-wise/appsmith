@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "692456a78a3f3113425a1717_ce1c9e8a-892c-431b-a399-fb7ab37bc70a",
-  "id": "Hakerton2_ListFiles",
+  "gitSyncId": "692456a78a3f3113425a1717_ea36f715-9424-48d0-a1e9-134e9bc966ab",
+  "id": "Hakerton3_ListFiles",
   "pluginId": "amazons3-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -36,7 +36,7 @@
           },
           "prefix": {
             "componentData": "{{search_input.text}}",
-            "data": "result/",
+            "data": "result",
             "viewType": "component"
           },
           "signedUrl": {
@@ -48,7 +48,7 @@
             "data": [
               {
                 "column": "",
-                "order": "Ascending"
+                "order": "Descending"
               }
             ]
           },
@@ -76,6 +76,9 @@
             },
             "viewType": "component"
           }
+        },
+        "path": {
+          "data": "{{File_List.selectedItem.fileName}}"
         }
       },
       "paginationType": "NONE",
@@ -98,10 +101,13 @@
       },
       {
         "key": "formData.list.pagination.data.limit"
+      },
+      {
+        "key": "formData.path.data"
       }
     ],
     "name": "ListFiles",
-    "pageId": "Hakerton2",
+    "pageId": "Hakerton3",
     "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": true
   }

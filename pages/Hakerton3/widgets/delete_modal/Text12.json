@@ -1,13 +1,8 @@
 {
-  "backgroundColor": "",
   "borderRadius": "0px",
   "bottomRow": 5,
   "boxShadow": "none",
-  "dynamicBindingPathList": [
-    {
-      "key": "fontFamily"
-    }
-  ],
+  "dynamicBindingPathList": [],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
     {
@@ -15,7 +10,7 @@
     }
   ],
   "dynamicTriggerPathList": [],
-  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontFamily": "System Default",
   "fontSize": "1.5rem",
   "fontStyle": "BOLD",
   "isLoading": false,
@@ -25,16 +20,14 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "overflow": "NONE",
-  "parentColumnSpace": 19.8125,
-  "parentId": "6tz2s7ivi5",
-  "parentRowSpace": 10,
-  "rightColumn": 63,
-  "text": "결과물",
-  "textAlign": "CENTER",
+  "parentId": "ozvpoudxz2",
+  "rightColumn": 41,
+  "text": "Delete File",
+  "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 0,
+  "topRow": 1,
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "t54ituq472",
-  "widgetName": "Text6"
+  "widgetId": "s1y44xm547",
+  "widgetName": "Text12"
 }

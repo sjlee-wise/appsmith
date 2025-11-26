@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "692456a78a3f3113425a1717_cfbc1a41-c9ed-40be-9071-f9b7d2be062d",
-  "id": "Hakerton2_ReadFile",
+  "gitSyncId": "692456a78a3f3113425a1717_a70f5265-346a-4057-8ccf-65efc15d6e28",
+  "id": "Hakerton3_DeleteFile",
   "pluginId": "amazons3-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -8,8 +8,8 @@
       "encodeParamsToggle": true,
       "formData": {
         "body": {
-          "componentData": "{\n\t\"data\": \"\"\n}",
-          "data": "{\n\t\"data\": \"\"\n}",
+          "componentData": "{\n\t\"data\": \"null\"\n}",
+          "data": "{\n\t\"data\": \"null\"\n}",
           "viewType": "component"
         },
         "bucket": {
@@ -18,21 +18,14 @@
           "viewType": "component"
         },
         "command": {
-          "componentData": "READ_FILE",
-          "data": "READ_FILE",
+          "componentData": "DELETE_FILE",
+          "data": "DELETE_FILE",
           "viewType": "component"
         },
         "path": {
           "componentData": "{{File_List.selectedItem.fileName}}",
           "data": "{{File_List.selectedItem.fileName}}",
           "viewType": "component"
-        },
-        "read": {
-          "dataType": {
-            "componentData": "YES",
-            "data": "YES",
-            "viewType": "component"
-          }
         }
       },
       "paginationType": "NONE",
@@ -50,8 +43,8 @@
         "key": "formData.path.data"
       }
     ],
-    "name": "ReadFile",
-    "pageId": "Hakerton2",
+    "name": "DeleteFile",
+    "pageId": "Hakerton3",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
