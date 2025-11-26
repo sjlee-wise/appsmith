@@ -1,22 +1,23 @@
 {
-  "gitSyncId": "692456a78a3f3113425a1717_5140504d-02ca-40af-ac93-db21c638cf0c",
+  "gitSyncId": "692456a78a3f3113425a1717_baa6be31-3812-43b3-b513-d62169aa0058",
   "unpublishedPage": {
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 430,
+          "bottomRow": 850,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 800,
+          "minHeight": 900,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 1224,
+          "rightColumn": 1174,
           "snapColumns": 64,
-          "snapRows": 78,
+          "snapRows": 129,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 94,
@@ -25,7 +26,7 @@
         }
       }
     ],
-    "name": "Page2",
-    "slug": "page2"
+    "name": "Hakerton2",
+    "slug": "hakerton2"
   }
 }

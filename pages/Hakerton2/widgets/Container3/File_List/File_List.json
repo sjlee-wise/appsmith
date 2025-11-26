@@ -1,0 +1,542 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "backgroundColor": "transparent",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 83,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "children": [
+    {
+      "borderRadius": "0px",
+      "bottomRow": 390,
+      "boxShadow": "none",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dropDisabled": true,
+      "dynamicBindingPathList": [],
+      "hideCard": true,
+      "isLoading": false,
+      "isVisible": "true",
+      "key": "29vrztch46",
+      "labelTextSize": "0.875rem",
+      "leftColumn": 0,
+      "minHeight": 400,
+      "noPad": true,
+      "openParentPropertyPane": true,
+      "parentColumnSpace": 1,
+      "parentId": "cjgg2thzom",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "rightColumn": 232.27734375,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "sh1yahe7kl",
+      "widgetName": "Canvas14"
+    }
+  ],
+  "displayName": "List",
+  "dynamicBindingPathList": [
+    {
+      "key": "listData"
+    },
+    {
+      "key": "template.FileListItemName.text"
+    },
+    {
+      "key": "template.EditIcon.buttonColor"
+    },
+    {
+      "key": "template.CopyURLIcon.buttonColor"
+    },
+    {
+      "key": "template.DownloadIcon.buttonColor"
+    },
+    {
+      "key": "template.Container7.borderColor"
+    },
+    {
+      "key": "template.Container7.borderWidth"
+    },
+    {
+      "key": "template.Container7.borderRadius"
+    },
+    {
+      "key": "template.CopyURLIcon.iconName"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "template.EditIcon.borderRadius"
+    },
+    {
+      "key": "template.CopyURLIcon.borderRadius"
+    },
+    {
+      "key": "template.DownloadIcon.borderRadius"
+    },
+    {
+      "key": "template.DeleteIcon.borderRadius"
+    },
+    {
+      "key": "template.FileListItemName.fontFamily"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "template.DownloadIcon.onClick"
+    },
+    {
+      "key": "template.CopyURLIcon.onClick"
+    },
+    {
+      "key": "onPageChange"
+    }
+  ],
+  "enhancements": true,
+  "gridGap": 0,
+  "gridType": "vertical",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.9925ee17.svg",
+  "isCanvas": true,
+  "isLoading": false,
+  "isVisible": "true",
+  "itemBackgroundColor": "#F6F7F8",
+  "key": "x51ms5k6q9",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 1,
+  "listData": "{{ListFiles.data}}",
+  "onPageChange": "{{ListFiles.run()}}",
+  "parentColumnSpace": 9.67822265625,
+  "parentId": "6tz2s7ivi5",
+  "parentRowSpace": 10,
+  "privateWidgets": {
+    "undefined": true
+  },
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "serverSidePaginationEnabled": true,
+  "template": {
+    "Container7": {
+      "borderColor": "{{File_List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '#2E3D4955';\n              })();\n            })}}",
+      "borderRadius": "{{File_List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '5';\n              })();\n            })}}",
+      "borderWidth": "{{File_List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '1';\n              })();\n            })}}"
+    },
+    "CopyURLIcon": {
+      "borderRadius": "{{File_List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  appsmith.theme.borderRadius.appBorderRadius;\n              })();\n            })}}",
+      "bottomRow": 13,
+      "boxShadow": "NONE",
+      "buttonColor": "{{File_List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '#2E3D49';\n              })();\n            })}}",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [],
+      "dynamicPropertyPathList": [
+        {
+          "key": "onClick"
+        }
+      ],
+      "dynamicTriggerPathList": [
+        {
+          "key": "onClick"
+        }
+      ],
+      "hideCard": false,
+      "iconName": "{{File_List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'duplicate';\n              })();\n            })}}",
+      "iconSVG": "/static/media/icon.bff4eac0.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "8akz850h7z",
+      "leftColumn": 45,
+      "logBlackList": {
+        "borderRadius": true,
+        "bottomRow": true,
+        "boxShadow": true,
+        "buttonColor": true,
+        "buttonVariant": true,
+        "displayName": true,
+        "hideCard": true,
+        "iconName": true,
+        "iconSVG": true,
+        "isCanvas": true,
+        "isDisabled": true,
+        "isLoading": true,
+        "isVisible": true,
+        "key": true,
+        "leftColumn": true,
+        "minHeight": true,
+        "parentColumnSpace": true,
+        "parentId": true,
+        "parentRowSpace": true,
+        "renderMode": true,
+        "rightColumn": true,
+        "topRow": true,
+        "type": true,
+        "version": true,
+        "widgetId": true,
+        "widgetName": true
+      },
+      "onClick": "{{copyToClipboard(currentItem.signedUrl)}}",
+      "parentColumnSpace": 9.4658203125,
+      "parentId": "lcz0rhije8",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 51,
+      "topRow": 9,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "d2z5zj56j9",
+      "widgetName": "CopyURLIcon"
+    },
+    "DeleteIcon": {
+      "borderRadius": "{{File_List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  appsmith.theme.borderRadius.appBorderRadius;\n              })();\n            })}}",
+      "bottomRow": 13,
+      "boxShadow": "NONE",
+      "buttonColor": "#DD4B34",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [],
+      "dynamicPropertyPathList": [
+        {
+          "key": "onClick"
+        }
+      ],
+      "dynamicTriggerPathList": [
+        {
+          "key": "onClick"
+        }
+      ],
+      "hideCard": false,
+      "iconName": "trash",
+      "iconSVG": "/static/media/icon.bff4eac0.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "8akz850h7z",
+      "leftColumn": 57,
+      "logBlackList": {
+        "borderRadius": true,
+        "bottomRow": true,
+        "boxShadow": true,
+        "buttonColor": true,
+        "buttonVariant": true,
+        "displayName": true,
+        "hideCard": true,
+        "iconName": true,
+        "iconSVG": true,
+        "isCanvas": true,
+        "isDisabled": true,
+        "isLoading": true,
+        "isVisible": true,
+        "key": true,
+        "leftColumn": true,
+        "minHeight": true,
+        "parentColumnSpace": true,
+        "parentId": true,
+        "parentRowSpace": true,
+        "renderMode": true,
+        "rightColumn": true,
+        "topRow": true,
+        "type": true,
+        "version": true,
+        "widgetId": true,
+        "widgetName": true
+      },
+      "onClick": "{{showModal('delete_modal')}}",
+      "parentColumnSpace": 9.4658203125,
+      "parentId": "lcz0rhije8",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 63,
+      "topRow": 9,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "f8ipd8gbls",
+      "widgetName": "DeleteIcon"
+    },
+    "DownloadIcon": {
+      "borderRadius": "{{File_List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  appsmith.theme.borderRadius.appBorderRadius;\n              })();\n            })}}",
+      "bottomRow": 13,
+      "boxShadow": "NONE",
+      "buttonColor": "{{File_List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '#2E3D49';\n              })();\n            })}}",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [],
+      "dynamicPropertyPathList": [
+        {
+          "key": "onClick"
+        }
+      ],
+      "dynamicTriggerPathList": [
+        {
+          "key": "onClick"
+        }
+      ],
+      "hideCard": false,
+      "iconName": "download",
+      "iconSVG": "/static/media/icon.bff4eac0.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "8akz850h7z",
+      "leftColumn": 51,
+      "logBlackList": {
+        "borderRadius": true,
+        "bottomRow": true,
+        "boxShadow": true,
+        "buttonColor": true,
+        "buttonVariant": true,
+        "displayName": true,
+        "hideCard": true,
+        "iconName": true,
+        "iconSVG": true,
+        "isCanvas": true,
+        "isDisabled": true,
+        "isLoading": true,
+        "isVisible": true,
+        "key": true,
+        "leftColumn": true,
+        "minHeight": true,
+        "parentColumnSpace": true,
+        "parentId": true,
+        "parentRowSpace": true,
+        "renderMode": true,
+        "rightColumn": true,
+        "topRow": true,
+        "type": true,
+        "version": true,
+        "widgetId": true,
+        "widgetName": true
+      },
+      "onClick": "{{navigateTo(currentItem.signedUrl, {})}}",
+      "parentColumnSpace": 9.4658203125,
+      "parentId": "lcz0rhije8",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 57,
+      "topRow": 9,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "ljk8fj5jc1",
+      "widgetName": "DownloadIcon"
+    },
+    "EditIcon": {
+      "borderRadius": "{{File_List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  appsmith.theme.borderRadius.appBorderRadius;\n              })();\n            })}}",
+      "bottomRow": 13,
+      "boxShadow": "NONE",
+      "buttonColor": "{{File_List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '#2E3D49';\n              })();\n            })}}",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [],
+      "dynamicPropertyPathList": [
+        {
+          "key": "onClick"
+        }
+      ],
+      "dynamicTriggerPathList": [
+        {
+          "key": "onClick"
+        }
+      ],
+      "hideCard": false,
+      "iconName": "edit",
+      "iconSVG": "/static/media/icon.bff4eac0.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "8akz850h7z",
+      "leftColumn": 39,
+      "logBlackList": {
+        "borderRadius": true,
+        "bottomRow": true,
+        "boxShadow": true,
+        "buttonColor": true,
+        "buttonVariant": true,
+        "displayName": true,
+        "hideCard": true,
+        "iconName": true,
+        "iconSVG": true,
+        "isCanvas": true,
+        "isDisabled": true,
+        "isLoading": true,
+        "isVisible": true,
+        "key": true,
+        "leftColumn": true,
+        "minHeight": true,
+        "parentColumnSpace": true,
+        "parentId": true,
+        "parentRowSpace": true,
+        "renderMode": true,
+        "rightColumn": true,
+        "topRow": true,
+        "type": true,
+        "version": true,
+        "widgetId": true,
+        "widgetName": true
+      },
+      "onClick": "{{showModal('Edit_Modal')}}",
+      "parentColumnSpace": 9.4658203125,
+      "parentId": "lcz0rhije8",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 45,
+      "topRow": 9,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "x5bft8h9vd",
+      "widgetName": "EditIcon"
+    },
+    "FileListItemName": {
+      "bottomRow": 8,
+      "dynamicBindingPathList": [
+        {
+          "key": "text"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "fontFamily": "{{File_List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  appsmith.theme.fontFamily.appFont;\n              })();\n            })}}",
+      "fontSize": "PARAGRAPH",
+      "fontStyle": "BOLD",
+      "isLoading": false,
+      "isVisible": true,
+      "leftColumn": 21,
+      "logBlackList": {
+        "bottomRow": true,
+        "fontSize": true,
+        "fontStyle": true,
+        "isLoading": true,
+        "isVisible": true,
+        "leftColumn": true,
+        "minHeight": true,
+        "parentColumnSpace": true,
+        "parentId": true,
+        "parentRowSpace": true,
+        "rightColumn": true,
+        "text": true,
+        "textAlign": true,
+        "textColor": true,
+        "topRow": true,
+        "type": true,
+        "version": true,
+        "widgetId": true,
+        "widgetName": true
+      },
+      "parentColumnSpace": 19.0625,
+      "parentId": "lcz0rhije8",
+      "parentRowSpace": 10,
+      "rightColumn": 63,
+      "shouldScroll": true,
+      "text": "{{File_List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.fileName;\n              })();\n            })}}",
+      "textAlign": "LEFT",
+      "textColor": "#231F20",
+      "topRow": 1,
+      "type": "TEXT_WIDGET",
+      "version": 1,
+      "widgetId": "qyqv89mu1c",
+      "widgetName": "FileListItemName"
+    },
+    "Image3": {
+      "bottomRow": 8.4,
+      "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+      "displayName": "Image",
+      "dynamicBindingPathList": [
+        {
+          "key": "image"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "enableDownload": false,
+      "enableRotation": false,
+      "hideCard": false,
+      "iconSVG": "/static/media/icon.52d8fb96.svg",
+      "image": "{{File_List.listData.map((currentItem) => currentItem.img)}}",
+      "imageShape": "RECTANGLE",
+      "isLoading": false,
+      "isVisible": true,
+      "key": "lsc53q139g",
+      "leftColumn": 0,
+      "maxZoomLevel": 1,
+      "objectFit": "contain",
+      "parentId": "lcz0rhije8",
+      "renderMode": "CANVAS",
+      "rightColumn": 16,
+      "topRow": 0,
+      "type": "IMAGE_WIDGET",
+      "version": 1,
+      "widgetId": "2rrg354q8i",
+      "widgetName": "Image3"
+    },
+    "Text20": {
+      "bottomRow": 4,
+      "displayName": "Text",
+      "dynamicBindingPathList": [
+        {
+          "key": "text"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "fontSize": "PARAGRAPH",
+      "fontStyle": "BOLD",
+      "hideCard": false,
+      "iconSVG": "/static/media/icon.e6c93592.svg",
+      "isLoading": false,
+      "isVisible": true,
+      "key": "xvmvdekk3s",
+      "leftColumn": 16,
+      "parentId": "lcz0rhije8",
+      "renderMode": "CANVAS",
+      "rightColumn": 28,
+      "text": "{{File_List.listData.map((currentItem) => currentItem.name)}}",
+      "textAlign": "LEFT",
+      "textColor": "#231F20",
+      "textStyle": "HEADING",
+      "topRow": 0,
+      "type": "TEXT_WIDGET",
+      "version": 1,
+      "widgetId": "thgbdemmiw",
+      "widgetName": "Text20"
+    },
+    "Text21": {
+      "bottomRow": 8,
+      "displayName": "Text",
+      "dynamicBindingPathList": [
+        {
+          "key": "text"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "fontSize": "PARAGRAPH",
+      "fontStyle": "BOLD",
+      "hideCard": false,
+      "iconSVG": "/static/media/icon.e6c93592.svg",
+      "isLoading": false,
+      "isVisible": true,
+      "key": "xvmvdekk3s",
+      "leftColumn": 16,
+      "parentId": "lcz0rhije8",
+      "renderMode": "CANVAS",
+      "rightColumn": 24,
+      "text": "{{File_List.listData.map((currentItem) => currentItem.id)}}",
+      "textAlign": "LEFT",
+      "textColor": "#231F20",
+      "textStyle": "BODY",
+      "topRow": 4,
+      "type": "TEXT_WIDGET",
+      "version": 1,
+      "widgetId": "nu44q8kd9p",
+      "widgetName": "Text21"
+    }
+  },
+  "topRow": 10,
+  "type": "LIST_WIDGET",
+  "widgetId": "cjgg2thzom",
+  "widgetName": "File_List"
+}

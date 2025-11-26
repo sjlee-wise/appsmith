@@ -30,7 +30,7 @@
   "mobileRightColumn": 41,
   "mobileTopRow": 45,
   "needsErrorInfo": false,
-  "onFilesSelected": "{{storeValue('curr', Date.now()).then(() => {});\nQuery1.run().then(() => {\n  navigateTo('Page2', {}, 'SAME_WINDOW');\n  showAlert('업로드 성공', 'info');\n}).catch(() => {\n  showAlert('다시 한 번 시도하세요.', 'error');\n});}}",
+  "onFilesSelected": "{{storeValue('curr', Date.now()).then(() => {});\nQuery1.run().then(() => {\n  navigateTo('Hakerton2', {}, 'SAME_WINDOW');\n  showAlert('업로드 성공', 'info');\n}).catch(() => {\n  showAlert('다시 한 번 시도하세요.', 'error');\n});}}",
   "originalBottomRow": 57,
   "originalTopRow": 52,
   "parentColumnSpace": 6.84375,
